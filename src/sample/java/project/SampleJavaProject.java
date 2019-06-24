@@ -41,7 +41,7 @@ public class SampleJavaProject implements Runnable {
     public static void main(final String[] args) {
         /* Parse command line arguments. */
         SampleJavaProject sjp = new SampleJavaProject();
-        System.out.println("ANMIt");
+        System.out.println("ANMIt Rai");
         try {
             JCommander jc = new JCommander(sjp, args);
             if (sjp.help) {
